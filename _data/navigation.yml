@@ -11,20 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
-    - title: "Portfolio"
-      section: portfolio
-    - title: "About"
-      section: about
-    - title: "Timeline"
-      section: timeline
-    - title: "Team"
+    - title: "What is kendo?"
+      section: aboutkendo
+    - title: "Instructor"
       section: team
-    - title: "Contact"
+    - title: "Schedule & Location"
+      section: location
+    - title: "Join Us"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
