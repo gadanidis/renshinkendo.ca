@@ -3,13 +3,13 @@ section#aboutkendo {
 }
 
 .logocontainer {
-    margin: 0px auto;
-    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .logo {
-    float: left;
     padding: 5px;
+    text-align: center;
 }
 
 .logocontainer::after {
@@ -19,5 +19,6 @@ section#aboutkendo {
 }
 
 .logo img {
+    text-align: center;
     height: 75px;
 }
