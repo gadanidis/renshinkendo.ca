@@ -22,7 +22,6 @@ en: &DEFAULT_EN
     subtext: ""
     section: team
     people:
-      # TODO: edit css to move to center, enlarge
       - name: ""
         role: ""
         image: assets/img/team/bill.jpg
