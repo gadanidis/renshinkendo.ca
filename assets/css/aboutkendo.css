@@ -1,3 +1,23 @@
 section#aboutkendo {
     background-image: url("/assets/img/aboutkendolight2.jpg");
 }
+
+.logocontainer {
+    margin: 0px auto;
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    padding: 5px;
+}
+
+.logocontainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo img {
+    height: 75px;
+}
