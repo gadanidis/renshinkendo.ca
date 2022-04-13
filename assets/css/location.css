@@ -27,3 +27,8 @@ section#location {
     font-size: 30px;
     font-weight: bold;
 }
+
+.alertsmall {
+    color: #ce282b;
+    font-weight: bold;
+}

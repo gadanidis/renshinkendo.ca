@@ -3,10 +3,23 @@ section#team {
     background-image: url("/assets/img/contact.png");
     color: #ffffff;
 }
-.instructor-image {
-    padding: 1em; 
-    text-align: center;
+
+/* TODO: try a media query here where you don't set width if it's less than a
+ * certain amount? */
+
+.instructor-container {
+    display: flex;
+    justify-content: space-around;
 }
+
+.instructor-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
 .instructor-image img {
     width: 400px;
     max-width: 100%;
@@ -14,6 +27,12 @@ section#team {
     border: 9px solid fade-out($black, 0.9);
 }
 
-.instructor-text {
+.instructor-column {
     padding: 1em;
+}
+
+@media (min-width: 992px) {
+    .instructor-column {
+        width: 40%;
+    }
 }

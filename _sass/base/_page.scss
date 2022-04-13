@@ -10,6 +10,7 @@ p {
 
 a {
   color: $primary;
+  text-decoration: underline;
   &:hover {
     color: darken($primary, 10%);
   }
