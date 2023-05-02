@@ -32,3 +32,13 @@ section#location {
     color: #ce282b;
     font-weight: bold;
 }
+
+thead {
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 0.5em;
+    background: white;
+}
