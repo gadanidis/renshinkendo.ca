@@ -4,5 +4,5 @@ gemspec
 
 
 gem "jekyll", "~> 4.0"
-gem "sassc", "~> 2.1.0"
+gem "sassc", "~> 2.4.0"
 gem "webrick", "~> 1.7"
