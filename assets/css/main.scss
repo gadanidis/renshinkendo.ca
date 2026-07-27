@@ -37,6 +37,23 @@ $monospace  : Monaco, Consolas, "Lucida Console", monospace;
     border: 10px solid #01114E;
 }
 
+.wrapper {
+  text-align: right;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.page__lead {
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.btn--light-outline {
+  background-color: #e54a4a;
+}
+
+.btn--light-outline:hover {
+  background-color: red;
+}
