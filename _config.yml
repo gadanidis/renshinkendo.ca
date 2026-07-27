@@ -32,7 +32,7 @@ atom_feed:
   hide: true
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
