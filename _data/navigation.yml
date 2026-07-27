@@ -1,11 +1,13 @@
 main:
-  - title: "Our&nbsp;Programs"
-    url: .#programs
-    target: _blank
+  - title: "Kids"
+    url: /children
+  - title: "Adults"
+    url: /adults
+  - title: "Competitive"
+    url: /competitive
   - title: "Schedule&nbsp;&amp;&nbsp;Location"
-    url: .#schedule-location
-    target: _blank
+    url: /#schedule-location
+  - title: "Instructors"
+    url: /instructors
   - title: "Contact"
-    url: .#contact
-    target: _blank
-
+    url: /#contact

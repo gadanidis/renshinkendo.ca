@@ -8,32 +8,57 @@ header:
     - label: "Sign up for a free 2-week trial"
       url: "https://forms.gle/w9Lc4J1xEdvFgCxJ7"
 excerpt: >
-  An energetic, enthusiastic and supportive kendo dojo for kids and adults, located in Markham, Ontario.
+  An enthusiastic and supportive kendo dojo<br>
+  for kids and adults, located in Markham, Ontario.
   <br>
   **No prior experience needed!**
-feature_row:
+row1:
   - image_path: /assets/images/kids.jpg
-    alt: "customizable"
-    title: "Kids' program"
-    excerpt: "Kids learn respect, confidence, and focus with dedicated kendo lessons from a certified Early Childhood Educator."
-    url: "https://forms.gle/w9Lc4J1xEdvFgCxJ7"
+    alt: "children"
+    title: "<span class='kidstitle'>Children's Kendo</span>"
+    excerpt: "Fun, structured kendo training designed for young learners."
+    url: "/children"
     btn_class: "btn--primary"
-    btn_label: "Sign up for a free trial"
+    btn_label: "Learn more"
   - image_path: /assets/images/adults.jpg
-    alt: "fully responsive"
-    title: "Adults' program"
-    excerpt: "Adults join a welcoming and supportive community focused on steady self-improvement, including instruction from current and former members of Team Canada."
-    url: "https://forms.gle/w9Lc4J1xEdvFgCxJ7"
+    alt: "adults"
+    title: "Adult Kendo"
+    excerpt: "Traditional martial arts training for fitness, focus, and personal growth."
+    url: "/adults"
     btn_class: "btn--primary"
-    btn_label: "Sign up for a free trial"
+    btn_label: "Learn more"
+  - image_path: /assets/images/competitive.jpg
+    alt: "competitive"
+    title: "Competitive Kendo"
+    excerpt: "Advanced training for members with serious competitive goals."
+    url: "/competitive"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
   - image_path: /assets/images/instructors.jpg
-    alt: "fully responsive"
+    alt: "instructors"
     title: "Instructors"
     excerpt: "Head instructor Bill Kim (7th dan, Renshi) is supported by Sean Ham, Jennifer Kim, Alex Lau, and Andrea Masuda (all 4th dan)."
+    url: "/instructors/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/testimonials.jpg
+    alt: "testimonials"
+    title: "Testimonials"
+    excerpt: "What people are saying about our dojo."
+    url: "https://maps.app.goo.gl/11WDVwpHK5ckihE1A"
+    btn_class: "btn--primary"
+    btn_label: "View reviews on Google Maps"
+  - image_path: /assets/images/gallery.jpg
+    alt: "gallery"
+    title: "Gallery"
+    excerpt: "Photos from our practices and events."
+    url: "https://instagram.com/renshinkendo"
+    btn_class: "btn--primary"
+    btn_label: "View on Instagram"
 ---
 
 <div id="programs">
-{% include feature_row %}
+{% include feature_row id="row1" %}
 </div>
 <div id="schedule-location">
 {% include schedule_location.html %}

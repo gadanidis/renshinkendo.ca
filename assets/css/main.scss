@@ -41,6 +41,11 @@ $monospace  : Monaco, Consolas, "Lucida Console", monospace;
   text-align: right;
 }
 
+.page__hero--overlay {
+  background-blend-mode: darken;
+  background: #00000055;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -56,4 +61,51 @@ $monospace  : Monaco, Consolas, "Lucida Console", monospace;
 
 .btn--light-outline:hover {
   background-color: red;
+}
+
+
+// Revise feature_row to be width 4, not 3
+
+.feature__item {
+  @include breakpoint($small) {
+    float: inline-start;
+    margin-bottom: 0;
+    width: span(4 of 12);
+
+    &:nth-child(3n + 1) {
+      clear: none;
+      margin-inline-start: 0;
+    }
+
+    &:nth-child(3n + 2) {
+      clear: none;
+      margin-inline-start: gutter(of 12);
+    }
+
+    &:nth-child(3n + 3) {
+      clear: none;
+      margin-inline-start: gutter(of 12);
+    }
+
+  }
+}
+
+
+details {
+  padding: 1em;
+  background-color: #F2F3F3;
+  border-radius: 5px;
+}
+summary {
+  font-weight: bold;
+}
+
+.float-right-photo {
+  max-height: 500px;
+  float: right;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-top: 1em;
 }
